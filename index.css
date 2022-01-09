@@ -1,0 +1,105 @@
+body {
+  font-family: "Staatliches", cursive;
+  margin: 0;
+  padding: 0;
+  background: url("bg.jpg");
+  height: 100%;
+
+  background-position: inherit;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.left {
+  position: absolute;
+  display: inline-block;
+
+  top: 20px;
+  left: 50px;
+}
+
+.mid {
+  display: block;
+  margin: 20px auto;
+  width: 43%;
+}
+
+.right {
+  position: absolute;
+  display: inline-block;
+
+  top: 20px;
+  right: 20px;
+}
+
+.navbar li {
+  font-size: 30px;
+  display: inline-block;
+}
+
+.navbar li a {
+  text-decoration: none;
+  list-style: none;
+  padding: 55px 20px;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+  text-decoration: underline;
+  color: olive;
+}
+
+.left img {
+  filter: invert(100%);
+}
+
+.left div {
+  line-height: 0;
+  color: #9e1d29;
+  background-color: black;
+  text-align: center;
+  font-size: 35px;
+}
+
+.btn {
+  background-color: rgb(104, 201, 80);
+  color: white;
+  margin: 0px 15px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: "Staatliches", cursive;
+  font-size: larger;
+}
+
+.btn:hover {
+  background-color: rgb(54, 46, 54);
+}
+.container {
+  margin: 120px 80px;
+  padding: 80px;
+  width: 40%;
+  border-radius: 20px;
+}
+.form-group input {
+  margin: 10px auto;
+  font-size: 22px;
+  text-align: center;
+  display: block;
+  width: 80%;
+  padding: 10px;
+  font-size: 22px;
+  border: 3px solid black;
+  border-radius: 10px;
+  font-family: "Staatliches", cursive;
+}
+.container h1 {
+  color: #4c463d;
+  text-align: center;
+}
+.container button {
+  display: block;
+  width: 83%;
+  margin: auto;
+}
